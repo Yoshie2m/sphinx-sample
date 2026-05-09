@@ -70,3 +70,17 @@ needs 一覧テーブルの表示:
 ````
 
 needs 間リンク（例: テストケースが要件を検証する）は `:links: REQ_001` オプションで指定します。
+
+## Pharaoh テストレポート
+
+`pharaoh-report/` に Pharaoh プロジェクトが初期化済み。設定ファイルは `pharaoh-report/pharaoh.yaml`。
+
+```bash
+# コンポーネント（テスト結果セット）の追加
+pharaoh -p pharaoh-report add -n <name> -t <template>
+
+# アセット生成 → レポートビルド
+pharaoh -p pharaoh-report generate build
+```
+
+**重要**: Pharaoh はプロジェクトルートとして空ディレクトリまたは既存の pharaoh プロジェクトのみ受け付けるため、専用の `pharaoh-report/` サブディレクトリで運用します（リポジトリルート直下では初期化不可）。
