@@ -1,0 +1,17 @@
+{
+  "updated": "2026-05-09T00:00:00+09:00",
+  "changes": {
+    "SPEC_001": {
+      "change_analysis": null,
+      "acknowledged": false,
+      "authored": true,
+      "verified": false
+    },
+    "SPEC_002": {
+      "change_analysis": null,
+      "acknowledged": false,
+      "authored": true,
+      "verified": false
+    }
+  }
+}
