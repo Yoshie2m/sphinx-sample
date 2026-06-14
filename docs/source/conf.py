@@ -14,7 +14,10 @@ release = '1.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = ['myst_parser', 'sphinxcontrib.mermaid', 'sphinx_needs']
+
+needs_id_required = True
+needs_id_regex = r"^[A-Z]+_\d{3}$"
 
 templates_path = ['_templates']
 exclude_patterns = []

@@ -1,4 +1,11 @@
 .obsidian
 .venv
+<<<<<<< HEAD
 pharaoh-report/
 docs/build/*
+=======
+docs/build/*
+pharaoh-report/
+.pharaoh/
+.obsidian/
+>>>>>>> a9c79ace8cfdf1468525c59838856af8af29d8a4
